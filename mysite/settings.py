@@ -12,14 +12,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-if 'SERVER_SOFTWARE' in os.environ:
-     from sae.const import (MYSQL_HOST, MYSQL_PORT, MYSQL_USER, MYSQL_PASS, MYSQL_DB)
-else:
-    MYSQL_HOST = 'localhost'
-    MYSQL_PORT = '3306'
-    MYSQL_USER = 'root'
-    MYSQL_PASS = ''
-    MYSQL_DB   = 'book'
+
     
 DATABASES = {
     'default': {
