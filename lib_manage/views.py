@@ -73,8 +73,7 @@ def Search(request):
         #showBooks(tmp)
     return render_to_response('Search.html')
 
-#def showBooks(request):
-    #global tmp
+
 
     
 def details(request):

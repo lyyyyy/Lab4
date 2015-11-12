@@ -13,7 +13,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-
+#best
     
 DATABASES = {
     'default': {
