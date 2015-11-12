@@ -100,7 +100,6 @@ def delete(request):
 def update(request):
     ID  = request.GET["id"]
     book = Book.objects.get(ISBN = ID)
-    #author = Author.objects.filter(AuthorID = book.AuthorID.AuthorID)
     author = book.AuthorID
     if request.POST:
         post = request.POST
