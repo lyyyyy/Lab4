@@ -9,19 +9,6 @@ class Author(models.Model):
     Age = models.CharField(max_length=30)
     Country = models.CharField(max_length=30)
     
-
-
-
-
-
-
-
-
-
-
-
-    
-    
 class Book(models.Model):
     ISBN = models.AutoField(primary_key = True)
     Title = models.CharField(max_length=30)
@@ -30,3 +17,4 @@ class Book(models.Model):
     PublishDate = models.DateField()
     Price = models.CharField(max_length=30)
     
+#AuthorID is primary_key in class Author
