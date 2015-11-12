@@ -4,10 +4,13 @@ from lib_manage.views import hello,current_datetime,current_datetime2,addBook,ad
 from django.conf.urls.static import static  
 from django.conf import settings  
   
-
+#333
 # Uncomment the next two lines to enable the admin:
-#notes
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> C4
 
 urlpatterns = patterns('',
     (r'^hello/$', hello),
