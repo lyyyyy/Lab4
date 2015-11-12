@@ -26,7 +26,7 @@ DATABASES = {
 }
 
 # Local time zone for this installation. Choices can be found here:
-
+#121212
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
 TIME_ZONE = 'America/Chicago'

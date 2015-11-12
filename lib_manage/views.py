@@ -70,7 +70,7 @@ def Search(request):
             person = None
             c = Context({"book_list":book_list,"query":person,})
         return render_to_response('AllBooks.html', c)
-        #showBooks(tmp)
+        
     return render_to_response('Search.html')
 
 #def showBooks(request):
