@@ -1,4 +1,4 @@
-﻿
+﻿#-*- coding: UTF-8 -*-
 # -*- coding: UTF-8 -*-
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse,HttpResponseRedirect

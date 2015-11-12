@@ -1,4 +1,5 @@
 # Django settings for Lab_3 project.
+#lab4
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
