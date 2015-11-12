@@ -18,3 +18,4 @@ class Book(models.Model):
     Price = models.CharField(max_length=30)
     
 #AuthorID is primary_key in class Author
+#it is

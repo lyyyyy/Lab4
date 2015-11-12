@@ -1,4 +1,4 @@
-# Create your views here.
+﻿
 # -*- coding: UTF-8 -*-
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse,HttpResponseRedirect
