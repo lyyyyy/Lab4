@@ -22,6 +22,7 @@ urlpatterns = patterns('',
     (r'^update/$',update),
     (r'^static/(?P<path>.*)$','django.views.static.serve',
         {'document_root':settings.STATIC_ROOT,}),
+	
     # Examples:
     # url(r'^$', 'Lab_3.views.home', name='home'),
     # url(r'^Lab_3/', include('Lab_3.foo.urls')),
